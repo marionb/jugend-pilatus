@@ -1,0 +1,223 @@
+<?php
+/* CSS for the frontend-output */
+//$GLOBALS['TL_CSS'][] = 'system/modules/gallery_creator/assets/css/gallery_creator_fe.css';
+
+/* javascript for the frontend-output */
+//$GLOBALS['TL_JAVASCRIPT'][] = 'system/modules/gallery_creator/assets/js/gallery_creator_fe.js';
+?>
+
+<?php if (!\Input::get('items')): ?>
+<!-- gallery_creator - album list -->
+<div class="<?php echo $this->class; ?> gallery_creator block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+<?php if ($this->headline): ?>
+<?php endif; ?>
+	
+<?php echo $this->pagination; ?>
+<?php if (count($this->arrAlbums)>0): ?>
+
+       <ul class="list_albums">
+<?php foreach ($this->arrAlbums as $Album): ?> 
+              <li class="row level_1 block"<?php echo $this->imagemargin ? 'style="'.$this->imagemargin.'"' : ''; ?>>
+
+                     <div class="col_1 col-md-4">
+                            <figure class="image_container" onmouseover="<?php echo $Album['thumbMouseover']; ?>">
+                                <?php if ($Album['href']): ?>
+                                <a href="<?php echo $Album['href']; ?>" title="<?php echo $Album['title']; ?>">
+                                    <?php endif; ?>
+                                    <?php $this->insert('picture_default', $Album['picture']); ?>
+                                    <?php if ($Album['href']): ?>
+                                </a>
+                            <?php endif; ?>                            </figure>
+                     </div>
+                     <div class="col_2 col-md-8">
+                            <h2><?php echo $Album['name']; ?></h2>
+
+                            <p class="count_pics">
+                                <span class="fa fa-user"></span> von <?php echo $Album['owners_name']; ?>
+                                &nbsp;&nbsp;
+                                <span class="fa fa-calendar"> </span> <?php echo $Album['event_date']; ?>
+                                <br><?php echo $Album['count']; ?> <?php echo $GLOBALS['TL_LANG']['gallery_creator']['pictures']; ?> | <?php echo $Album['visitors']; ?> <?php echo $GLOBALS['TL_LANG']['gallery_creator']['visitors']; ?></p>
+    
+
+<?php if ($Album['count_subalbums']): ?>
+                            <p class="count_pics"><?php echo $Album['count_subalbums']; ?> <?php echo $GLOBALS['TL_LANG']['gallery_creator']['subalbums']; ?></p>
+<?php endif; ?>		
+<?php if ($Album['comment']): ?>
+                            <p class="album_comment"><?php echo \String::substr($Album['comment'], 200); ?></p>
+<?php endif; ?>
+                     </div>
+              </li>
+<?php endforeach; ?>
+       </ul>
+<?php endif; ?>
+
+<?php echo $this->pagination; ?>
+
+</div>
+<?php endif; ?>
+
+
+
+
+
+
+<?php if (\Input::get('items')): ?>
+<!-- gallery_creator - album preview -->
+<div class="<?php echo $this->class; ?> gallery_creator block"<?php echo $this->cssID; ?><?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+
+<?php if ($this->insertArticlePre):?>
+<!-- articleBoxPre-->
+<div id="articleBoxPre" class="block">
+<?php echo $this->insertArticlePre; ?>
+</div>
+<!-- end articleBoxPre-->
+<?php endif; ?>
+
+<?php if ($this->headline): ?>
+<<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+<?php endif; ?>
+
+<?php if ($this->backLink): ?>
+<p class="backLink"><a href="<?php echo $this->backLink; ?>" title="zurück"><span class="glyphicon glyphicon-th-list">&nbsp;</span><?php echo $GLOBALS['TL_LANG']['gallery_creator']['back_to_general_view']; ?></a></p>
+<?php endif; ?>
+	
+<?php if ($this->Albumname): ?>
+<h2><?php echo $this->Albumname; ?></h2>
+<?php endif; ?>
+
+<?php if ($this->subalbums): ?>
+<div class="subalbums">
+	<h3><?php echo $GLOBALS['TL_LANG']['gallery_creator']['subalbums_of']; ?>: <?php echo $this->Albumname; ?></h3>
+
+       <ul class="list_albums">
+<?php foreach ($this->subalbums as $Subalbum): ?>
+              <li class="level_1 block"<?php echo $this->imagemargin ? 'style="'.$this->imagemargin.'"' : ''; ?>>
+                     <div class="tstamp block"><p>[<?php echo $Subalbum['event_date']; ?>]</p></div>
+                     <div class="col_1">
+                            <figure class="image_container" onmouseover="<?php echo  $Subalbum['thumbMouseover']; ?>">
+<?php if ($Subalbum['href']): ?>
+                                   <a href="<?php echo $Subalbum['href']; ?>" title="<?php echo $Subalbum['title']; ?>">
+<?php endif; ?>
+    <?php $this->insert('picture_default', $Subalbum['picture']); ?>
+<?php if ($Subalbum['href']): ?> 
+                                   </a>
+<?php endif; ?>
+                            </figure>
+                     </div>
+                     <div class="col_2">
+                            <h2><?php echo $Subalbum['name']; ?></h2>
+<?php if ($Subalbum['count']): ?>
+                            <p class="count_pics"><?php echo $Subalbum['count']; ?> <?php echo $GLOBALS['TL_LANG']['gallery_creator']['pictures']; ?></p>
+                            <p class="visitors"><?php echo $Subalbum['visitors']; ?> <?php echo $GLOBALS['TL_LANG']['gallery_creator']['visitors']; ?></p>
+<?php endif; ?>
+<?php if ($Subalbum['count_subalbums']): ?>
+                            <p class="count_pics"><?php echo $Subalbum['count_subalbums']; ?> <?php echo $GLOBALS['TL_LANG']['gallery_creator']['subalbums']; ?></p>
+<?php endif; ?>		
+<?php if ($Subalbum['comment']): ?>
+                            <p class="album_comment"><?php echo $Subalbum['comment']; ?></p>
+<?php endif; ?>
+                     </div>
+              </li>
+<?php endforeach; ?>
+       </ul>
+</div>
+<?php endif; ?>
+
+
+
+
+<?php if ($this->albumComment): ?>
+<div class="albumComment">
+    <p><?php echo $this->albumComment; ?></p>
+</div>
+<?php endif; ?>
+
+<?php echo $this->pagination; ?>
+<?php $col=0; ?>
+
+<?php if ($this->arrPictures): ?>
+    <ul class="album-detailview row">
+    <?php foreach ($this->arrPictures as $Picture): ?>
+            <li class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <figure<?php echo (strlen($Picture['cssID']) ? ' id="' . $Picture['cssID'] . '"' : ''); ?> class="image_container<?php echo strlen($Picture['cssClass']) ? ' ' . $Picture['cssClass'] : ''; ?>"<?php echo $this->imagemargin ? ' style="'.$this->imagemargin.'"' : ''; ?>>
+                <?php if ($Picture['href']): ?>
+                    <a href="<?php echo $Picture['href']; ?>" data-thumb-href="<?php echo $Picture['thumb_src']; ?>" data-mobile-href="<?php echo TL_FILES_URL . \Image::get($Picture['path'], 600, round($Picture['size'][1]*600/$Picture['size'][0], 0),'proportional'); ?>" <?php echo $Picture['lightbox']; ?> title="<?php echo $Picture['comment'] ? $Picture['comment'] : ($Picture['title'] ? $Picture['title'] : $Picture['filename']); ?>">
+                <?php endif; ?>
+                        <?php $this->insert('picture_default', $Picture['picture']); ?>
+                <?php if ($Picture['href'] != ''): ?>
+                     </a>
+                <?php endif; ?>
+                </figure>
+                <?php if($Picture['comment'] != ''): ?>
+                    <figcaption class="caption invisible">
+                        <?php echo $Picture['comment']; ?>
+                    </figcaption><?php endif; ?>
+            </li>
+    <?php endforeach;?>
+    </ul>
+<?php endif;?>
+<script>
+    // Show resized and optimized images for mobile users
+    (function($) {
+        $().ready(function () {
+            $$('.headline').css('display', 'none');
+        });
+    });
+</script>
+
+                    <?php if ($this->insertArticlePost):?>
+    <!-- articleBoxPre-->
+    <div id="articleBoxPost" class="block">
+        <?php echo $this->insertArticlePost; ?>
+    </div>
+    <!-- end articleBoxPost-->
+<?php endif; ?>
+
+</div>
+<?php endif; ?>
+
+
+<script>
+    // Show resized and optimized images for mobile users
+    (function($) {
+        $().ready(function () {
+
+            window.addEventListener("orientationchange", function () {
+                $('.album_preview img').each(function (index, el) {
+                    var thumb = $(el);
+
+                    if (window.orientation < 0 || window.orientation > 0) {
+                        thumb.attr('src', thumb.parent('a').attr('data-thumb-href'));
+                    }
+                    else {
+                        thumb.attr('src', thumb.parent('a').attr('data-mobile-href'));
+                    }
+                });
+            }, false);
+
+            if (window.orientation == 0) {
+                if (window.screen.width < 481) {
+                    $('.album_preview img').each(function (index, el) {
+                        var thumb = $(el);
+                        // disable lightbox
+                        thumb.parent('a').click(function(event) {
+                            if (window.orientation == 0) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                        });
+
+
+                        // Add mobile-href
+                        if (thumb.parent('a').attr('data-mobile-href') != '') {
+
+                            var src = thumb.parent('a').attr('data-mobile-href');
+                            thumb.attr('src', src);
+                        }
+                    });
+                }
+            }
+        });
+    })(jQuery);
+</script>
+

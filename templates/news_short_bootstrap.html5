@@ -1,0 +1,21 @@
+<div class="mod_article">
+    <h1 class="ce_headline first">Aktuelles:</h1>
+    <div class="panel <?php echo $this->class; ?>">
+        <!--<div class="panel-heading"> </div>-->
+        <div class="panel-body">
+            <?php if ($this->hasMetaFields): ?>
+                <p class="info"><time datetime="<?php echo $this->datetime; ?>"><?php echo $this->date; ?></time> <?php echo $this->author; ?> <?php echo $this->commentCount; ?></p>
+            <?php endif; ?>
+
+            <h3><b><?php echo $this->headline; ?></b></h3>
+
+            <div class="teaser">
+                <?php echo $this->teaser; ?>
+            </div>
+
+            <?php if ($this->text || $this->teaser): ?>
+            <p class="more"><?php echo $this->more; ?></p>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>

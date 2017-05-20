@@ -1,0 +1,22 @@
+[08-Nov-2016 19:29:34 Europe/Zurich] PHP Fatal error: Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "webmaster" using 3 possible authenticators' thrown in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+#0 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Email.php(498): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/newsletter/classes/Newsletter.php(388): Contao\Email->sendTo('marion.baumgart...')
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/newsletter/classes/Newsletter.php(168): Contao\Newsletter->sendNewsletter(Object(Contao\Email), Object(Contao\Database\Mysql\Result), Array, '', '<p>kjxvcjky</p>...')
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/Backend.php(430): Contao\Newsletter->send(Object(Contao\DC_Table))
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/BackendMain.php(131): Contao\Backend->getBackendModule('newsletter')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/contao/main.php(20): Contao\BackendMain->run()
+#9 {main}
+[08-Nov-2016 19:32:24 Europe/Zurich] PHP Fatal error: Uncaught exception 'Swift_TransportException' with message 'Failed to authenticate on SMTP server with username "webmaster" using 3 possible authenticators' thrown in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php on line 181
+#0 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php(307): Swift_Transport_Esmtp_AuthHandler->afterEhlo(Object(Swift_SmtpTransport))
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(118): Swift_Transport_EsmtpTransport->_doHeloCommand()
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(79): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Email.php(498): Swift_Mailer->send(Object(Swift_Message), Array)
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/newsletter/classes/Newsletter.php(388): Contao\Email->sendTo('marion.baumgart...')
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/newsletter/classes/Newsletter.php(168): Contao\Newsletter->sendNewsletter(Object(Contao\Email), Object(Contao\Database\Mysql\Result), Array, '', '<p>kjxvcjky</p>...')
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/Backend.php(430): Contao\Newsletter->send(Object(Contao\DC_Table))
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/BackendMain.php(131): Contao\Backend->getBackendModule('newsletter')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/contao/main.php(20): Contao\BackendMain->run()
+#9 {main}

@@ -1,0 +1,35 @@
+<div class="<?php echo $this->class; ?> block"
+  <?php echo $this->cssID; ?>
+  <?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+ 
+  <?php echo $this->hallo; ?>
+  <div class="col-md-6">
+	<div class="well">
+        <a class="fa-links" href="<?php echo $href['fohn']?>">
+            <h1>F&ouml;hn</h1>
+		</a>
+    </div>
+  </div>
+    <div class="col-md-6">
+	<div class="well">
+        <a class="fa-links" href="<?php echo $href['jprogram']?>">
+            <h1>Jahresprogramm</h1>
+		</a>
+    </div>
+  </div>
+    <div class="col-md-6">
+	<div class="well">
+	  <a class="fa-links" href="<?php echo $href['bericht']?>">
+	    <h1>Berichte</h1>
+      </a>
+    </div>
+  </div>
+    <div class="col-md-6">
+	<div class="well">
+	<a class="fa-links" href="<?php echo $href['kontakt']?>">
+	  <h1>Kontakt</h1>
+	</a>
+    </div>
+  </div>  
+</div>
+

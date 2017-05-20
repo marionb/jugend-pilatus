@@ -1,0 +1,85 @@
+@JO-radius: 50px;
+@JO-color: rgb(68,161,43);
+@KiBe-color: rgb(0,158,224);
+@Fabe-color: rgb(241,142,0);
+@JSKids-color: rgb(100,10,100); //may need adjusting
+
+//FABE R:241/G:142/B:0    KIBE: R:0/G:158/B: 224   JO: R:68/G:161/B:43
+
+.Jugend-btn .btn {
+	border-radius: @JO-radius;
+	&.JO-btn{
+		background-color: @JO-color;
+    	border-color: @JO-color;
+	}
+	&.FaBe-btn{
+		background-color: @Fabe-color;
+    	border-color: @Fabe-color;
+	}
+	&.KiBe-btn{
+		background-color: @KiBe-color;
+    	border-color: @KiBe-color;
+	}
+	&.JSKids-btn{
+		background-color: @JSKids-color;
+    	border-color: @JSKids-color;
+	}
+}
+
+
+.background-FE-tiles {
+	//font-family: Panton;//, Helvetica, Verdana, Sans-Serif;
+	//background: rgb(185,145, 83);
+	//background-image: url(http://localhost/JOSeite/system/modules/marion-Tile-FE/html/100-Jahre_Button.png);
+    //background-repeat: no-repeat;
+    /* The old syntax, deprecated and prefixed, for old browsers */
+    background: -prefix-linear-gradient(left top, rgb(185,145, 83), white); 
+
+    /* The new syntax needed by standard-compliant browsers (Opera 12.1,
+       IE 10, Firefox 16, Chrome 26, Safari 6.1), without prefix */
+    background: linear-gradient(to bottom right, rgb(185,145, 83), white);
+    
+    a {
+    	//color: ;
+    	text-align: center;
+    	text-transform: uppercase;
+    	font-weight: 300;
+    	/* unvisited link */
+		&:link {
+    		color: rgb(128, 128, 128);
+    		text-shadow: 3px 3px 3px rgb(240, 245, 245);
+		}
+
+		/* visited link */
+		&:visited {
+    		color: rgb(128, 128, 128);
+    		text-shadow: 3px 3px 3px rgb(240, 245, 245);
+		}
+
+		/* mouse over link */
+		&:hover {
+    		color: rgb(51, 76, 76);
+    		text-shadow: 3px 3px 3px rgb(240, 245, 245);
+		}
+
+		/* selected link */
+		&:active {
+    		color: rgb(51, 76, 76);
+    		text-shadow: 3px 3px 3px rgb(240, 245, 245);
+		}
+    }
+}
+
+a:hover {
+ cursor:pointer;
+}
+
+.img-foehn {
+	width: 50%;
+	display: block;
+    margin: 0 auto;
+}
+
+.img-foehn-home{
+	width: 35%;
+}

@@ -1,0 +1,6 @@
+<div class="container">
+<div class="jumbotron">
+  Für die erfassung von Berichten und Ausschreibungen ist eine Anmeldung im Backend Erforderlich. Eine genaue Anleitung dazu gibt es im <a href="https://github.com/marionb/ModulesJOSeite/wiki/Erfassung-einer-regul%C3%A4ren-Tour-aus-dem-Jahresprogramm">Wiki</a>.
+  <p class="text-center"><a href="/contao" class="btn btn-primary" role="button">Login Backend</a></p>
+</div>
+</div>

@@ -1,0 +1,895 @@
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: Division by zero in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 27
+#0 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(27): __error(2, 'Division by zer...', '/home/httpd/vho...', 27, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#15 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 32
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 32, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(32): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 40
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 40, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(40): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 48
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 48, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(48): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 56
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 56, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(56): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 86
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 86, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(86): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 93
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 93, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(93): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 100
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 100, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(100): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:12 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 107
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 107, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(107): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: Division by zero in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 27
+#0 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(27): __error(2, 'Division by zer...', '/home/httpd/vho...', 27, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#15 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 32
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 32, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(32): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 40
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 40, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(40): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 48
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 48, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(48): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 56
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 56, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(56): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 86
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 86, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(86): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 93
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 93, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(93): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 100
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 100, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(100): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 16:04:31 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 107
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 107, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(107): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: Division by zero in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 27
+#0 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(27): __error(2, 'Division by zer...', '/home/httpd/vho...', 27, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#15 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 32
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 32, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(32): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 40
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 40, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(40): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 48
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 48, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(48): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 56
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 56, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(56): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 86
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 86, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(86): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 93
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 93, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(93): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 100
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 100, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(100): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:05 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 107
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 107, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(107): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: Division by zero in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 27
+#0 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(27): __error(2, 'Division by zer...', '/home/httpd/vho...', 27, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#15 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 32
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 32, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(32): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 40
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 40, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(40): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 48
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 48, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(48): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 56
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 56, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(56): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 86
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 86, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(86): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 93
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 93, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(93): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 100
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 100, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(100): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 17:57:55 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 107
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 107, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(107): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: Division by zero in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 27
+#0 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(27): __error(2, 'Division by zer...', '/home/httpd/vho...', 27, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#15 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 32
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 32, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(32): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 40
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 40, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(40): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 48
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 48, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(48): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 56
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 56, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(56): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 86
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 86, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(86): in_array('JO', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 93
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 93, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(93): in_array('FaBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 100
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 100, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(100): in_array('J+S Kids', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+
+[29-Aug-2016 22:21:25 Europe/Zurich] 
+PHP Warning: in_array() expects parameter 2 to be array, null given in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5 on line 107
+#0 [internal function]: __error(2, 'in_array() expe...', '/home/httpd/vho...', 107, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/marion-ausschreibung/templates/mod_ausschreibunglistfull.html5(107): in_array('KiBe', NULL)
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/BaseTemplate.php(88): include('/home/httpd/vho...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Template.php(250): Contao\BaseTemplate->parse()
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/FrontendTemplate.php(46): Contao\Template->parse()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(306): Contao\FrontendTemplate->parse()
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/elements/ContentModule.php(59): Contao\Module->generate()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(476): Contao\ContentModule->generate()
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(213): Contao\Controller::getContentElement(Object(Contao\ContentModel), 'main')
+#9 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/Module.php(282): Contao\ModuleArticle->compile()
+#10 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/modules/ModuleArticle.php(67): Contao\Module->generate()
+#11 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(409): Contao\ModuleArticle->generate(false)
+#12 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Controller.php(269): Contao\Controller::getArticle(Object(Contao\ArticleModel), false, false, 'main')
+#13 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/pages/PageRegular.php(133): Contao\Controller::getFrontendModule('0', 'main')
+#14 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/FrontendIndex.php(267): Contao\PageRegular->generate(Object(Contao\PageModel), true)
+#15 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/index.php(20): Contao\FrontendIndex->run()
+#16 {main}
+

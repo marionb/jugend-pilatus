@@ -1,0 +1,36 @@
+<div class="<?php echo $this->class; ?> block"
+  <?php echo $this->cssID; ?>
+  <?php if ($this->style): ?> style="<?php echo $this->style; ?>"<?php endif; ?>>
+ 
+ <!-- <?php echo $this->hallo; ?>-->
+  <div class="col-md-6">
+	<div class="well">
+        <a class="fa-links" href="index.php/Portrait.html">
+            <h1>Portrait</h1>
+		</a>
+    </div>
+  </div>
+    <div class="col-md-6">
+	<div class="well">
+           <a class="fa-links" href="index.php/ausschreibungen.html">
+       <!-- <a class="fa-links" href="/index.php/programm.html"> -->
+            <h1>Programm</h1>
+		</a>
+    </div>
+  </div>
+    <div class="col-md-6">
+	<div class="well">
+	  <a class="fa-links" href="/index.php/berichte-und-artikel.html">
+	    <h1>Berichte</h1>
+      </a>
+    </div>
+  </div>
+    <div class="col-md-6">
+	<div class="well">
+	<a class="fa-links" href="index.php/kontakt.html">
+	  <h1>Kontakt </h1>
+	</a>
+    </div>
+  </div>  
+</div>
+

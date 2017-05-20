@@ -1,0 +1,13 @@
+[25-Sep-2016 14:30:21 Europe/Zurich] 
+PHP Warning: hex2bin(): Input string must be hexadecimal string in /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/String.php on line 544
+#0 [internal function]: __error(2, 'hex2bin(): Inpu...', '/home/httpd/vho...', 544, Array)
+#1 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/String.php(544): hex2bin('files/JOThemes/...')
+#2 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/widgets/FileTree.php(115): Contao\String::uuidToBin('files/JOThemes/...')
+#3 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/library/Contao/Widget.php(798): Contao\FileTree->validator('files/JOThemes/...')
+#4 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/DataContainer.php(320): Contao\Widget->validate()
+#5 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/drivers/DC_Table.php(1907): Contao\DataContainer->row('{Titel}, titel;...')
+#6 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/classes/Backend.php(639): Contao\DC_Table->edit()
+#7 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/system/modules/core/controllers/BackendMain.php(131): Contao\Backend->getBackendModule('ausschreibung')
+#8 /home/httpd/vhosts/jugend-pilatus.ch/httpdocs/contao/main.php(20): Contao\BackendMain->run()
+#9 {main}
+
